@@ -1,5 +1,5 @@
  - name: Install MySQL libraries
-    ansible.builtin.pip:
+   ansible.builtin.pip:
       name: "{{ item }}"
       executable: pip3.9
     loop:
